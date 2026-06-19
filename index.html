@@ -116,13 +116,6 @@
             <div class="meta">Trin-for-trin vejledning · Word</div>
           </div>
         </div>
-        <div class="file-item">
-          <div class="file-icon exe">EXE</div>
-          <div class="file-info">
-            <div class="name">IT_VPN_Repair_Tool_v2.exe</div>
-            <div class="meta">Automatisk reparationsværktøj · Kræver administrator</div>
-          </div>
-        </div>
       </div>
 
       <button class="btn-download" onclick="downloadAll()">
@@ -135,7 +128,7 @@
           <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
           Fremgangsmåde
         </h3>
-        <p>Hent ovenstående filer, læs PDF-rapporten og kør <strong>IT_VPN_Repair_Tool_v2.exe</strong> som administrator. Kontakt IT på <strong>itsupport@virksomhed.dk</strong> eller int. 2210 ved spørgsmål.</p>
+        <p>Hent ovenstående filer og læs PDF-rapporten. Kontakt IT på <strong>itsupport@virksomhed.dk</strong> eller int. 2210 ved spørgsmål.</p>
       </div>
     </div>
   </div>
@@ -149,9 +142,8 @@
 <script>
 function downloadAll() {
   const files = [
-    'INC-09341_Fejlanalyse_Rapport.pdf',
-    'INC-09341_Fejlfinding_Trin.docx',
-    'IT_VPN_Repair_Tool_v2.exe'
+    'INC-09341_Fejlanalyse_Rapport.pdf',   // ← erstat med dit faktiske filnavn
+    'INC-09341_Fejlfinding_Trin.docx'      // ← erstat med dit faktiske filnavn
   ];
   files.forEach((filename, i) => {
     setTimeout(() => {
